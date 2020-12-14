@@ -1,7 +1,5 @@
-pub mod regex_inefficient;
 pub mod regex_fa;
 
-use regex_inefficient::RegexConvertable;
 use std::env;
 
 fn main() {
